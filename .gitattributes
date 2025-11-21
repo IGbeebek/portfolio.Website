@@ -1,0 +1,6 @@
+# Set repository language detection
+*.jsx linguist-language=JavaScript
+*.js linguist-language=JavaScript
+
+# Mark CSS as secondary
+*.css linguist-detectable=true
