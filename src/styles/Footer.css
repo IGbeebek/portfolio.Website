@@ -1,0 +1,31 @@
+.footer {
+  background: #1a1f2c;
+  padding: 2rem 0;
+  margin-top: 4rem;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-text {
+  color: #cbd5e0;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.footer-built {
+  color: #718096;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    margin-top: 3rem;
+  }
+
+  .footer-text,
+  .footer-built {
+    font-size: 0.9rem;
+  }
+}
